@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="webbanhang:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>webbanhang</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="webbanhang-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="webbanhang:war exploded" />
+    </root>
+  </artifact>
+</component>
